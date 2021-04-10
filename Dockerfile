@@ -16,7 +16,7 @@ RUN apt-get update && \
         python3.8 \
         python3.9 \
         python3-pip && \
-    python3 -m pip install virtualenv  && \
+    python3.9 -m pip install virtualenv  && \
     apt-get clean
 
 CMD tail -f /dev/null
