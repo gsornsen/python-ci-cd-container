@@ -10,6 +10,7 @@ RUN apt-get update && \
     add-apt-repository -y ppa:deadsnakes/ppa && \
     apt-get update && \
     apt-get install -y --no-install-recommends \
+        build-essential \
         git \
         python3.7 \
         python3.8 \
